@@ -2,7 +2,6 @@
   "name": "open-react-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://victorhe33.github.io/safeql-splash",
   "dependencies": {
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
@@ -38,8 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
