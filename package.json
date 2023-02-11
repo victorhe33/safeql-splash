@@ -21,7 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "start-legacy": "react-scripts --openssl-legacy-provider start"
   },
   "eslintConfig": {
     "extends": "react-app"
