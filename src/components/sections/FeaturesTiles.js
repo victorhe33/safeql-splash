@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Enforce your endpoint\'s security',
+    paragraph: 'SafeQL is an easy-to-use web-based GUI for GraphQL API security and performance testing, allowing users to test the performance of their GraphQL API by displaying an endpoint\'s metrics, as well as the schema\'s protection against DDOS attacks.'
   };
 
   return (
@@ -124,7 +124,7 @@ const FeaturesTiles = ({
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-bottom">
+            {/* <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
@@ -144,8 +144,8 @@ const FeaturesTiles = ({
                     </p>
                 </div>
               </div>
-            </div>
-
+            </div> */}
+{/* 
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
@@ -166,9 +166,9 @@ const FeaturesTiles = ({
                     </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+            {/* <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
@@ -188,7 +188,7 @@ const FeaturesTiles = ({
                     </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>
