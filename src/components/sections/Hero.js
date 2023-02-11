@@ -65,18 +65,18 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Description of product
+              Developer Tool for GraphQL API Security and Performance Testing
                 </p>
-              <div className="reveal-from-bottom" data-reveal-delay="600">
-                <ButtonGroup>
+              {/* <div className="reveal-from-bottom" data-reveal-delay="600"> */}
+                {/* <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
                     Get started
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
                     View on Github
                     </Button>
-                </ButtonGroup>
-              </div>
+                </ButtonGroup> */}
+              {/* </div> */}
             </div>
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
@@ -86,12 +86,12 @@ const Hero = ({
               aria-controls="video-modal"
               onClick={openModal}
             >
-              <Image
+              {/* <Image
                 className="has-shadow"
                 src={require('./../../assets/images/video-placeholder.jpg')}
                 alt="Hero"
                 width={896}
-                height={504} />
+                height={504} /> */}
             </a>
           </div>
           <Modal

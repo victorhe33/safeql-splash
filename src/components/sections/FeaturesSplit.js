@@ -67,13 +67,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  So easy to use!
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                Metrics display of queries 
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Enter the URL of the GraphQL API and type in the query you want to test. Click Run to automatically run all associated tests.
                   </p>
               </div>
               <div className={
@@ -83,8 +83,8 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
-                  alt="Features split 01"
+                  src={('https://user-images.githubusercontent.com/3701668/217415542-6e217696-0c54-448a-ba13-ea0a146512ce.gif')}
+                  alt="gif of checking a query and endpoint"
                   width={528}
                   height={396} />
               </div>
@@ -93,13 +93,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  It feels so robust!
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Testing your endpoint's security
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Enter the URL of the GraphQL API. You don't need to enter a query string. If a query is entered, it won't affect the results. Choose from the drop down menu and select, Security, click on the Submit button to determine if the query passes or fails the DOS test.
                   </p>
               </div>
               <div className={
@@ -119,13 +119,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  No security issues left behind!
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Schema checking
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Once you click onto to the Schema page, there is an codebox for copying your schema in securely, since your schema are only saved for the session. Submit your schema for an interactive table visualization that displays any schema that allow for a circular reference that could be exploited.
                   </p>
               </div>
               <div className={
@@ -135,7 +135,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={`https://user-images.githubusercontent.com/3701668/217420191-22bd41b8-f78c-4f12-a730-ebd7df93ad62.gif`}
                   alt="Features split 03"
                   width={528}
                   height={396} />
