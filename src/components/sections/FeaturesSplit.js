@@ -114,7 +114,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={`https://user-images.githubusercontent.com/3701668/217420191-22bd41b8-f78c-4f12-a730-ebd7df93ad62.gif`}
+                  src={`https://user-images.githubusercontent.com/3701668/232093775-0897182d-8c34-438c-8170-23b1a7be8565.gif`}
                   alt="Features split 02"
                   width={528}
                   height={396} />
