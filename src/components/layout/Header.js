@@ -106,21 +106,13 @@ const Header = ({
                     isActive && 'is-active'
                   )}>
                 <div className="header-nav-inner">
-                  <ul className={
-                    classNames(
-                      'list-reset text-xs',
-                      navPosition && `header-nav-${navPosition}`
-                    )}>
-                    <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
-                    </li>
-                  </ul>
+
                   {!hideSignin &&
                     <ul
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
+                        <a href="https://github.com/oslabs-beta/safeql" className="button button-primary button-wide-mobile button-sm">Documentation</a>
                       </li>
                     </ul>}
                 </div>
