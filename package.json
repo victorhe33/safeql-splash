@@ -17,6 +17,7 @@
     "url": "https://github.com/cruip/open-react-template.git"
   },
   "scripts": {
+    "dev": "nodemon react-scripts",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }

@@ -49,11 +49,6 @@ const FeaturesSplit = ({
     alignTop && 'align-top'
   );
 
-  const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
-  };
-
   return (
     <section
       {...props}
@@ -61,21 +56,26 @@ const FeaturesSplit = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          
+
           <div className={splitClasses}>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                
+              <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   So easy to use!
-                  </div>
+                </div>
+
                 <h3 className="mt-0 mb-12">
                 Metrics display of queries 
-                  </h3>
+                </h3>
+
                 <p className="m-0">
                 Enter the URL of the GraphQL API and type in the query you want to test. Click Run to automatically run all associated tests.
-                  </p>
+                </p>
               </div>
+
               <div className={
                 classNames(
                   'split-item-image center-content-mobile reveal-from-bottom',
@@ -90,7 +90,9 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+
             <div className="split-item">
+
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   It feels so robust!
@@ -102,6 +104,7 @@ const FeaturesSplit = ({
                 Enter the URL of the GraphQL API. You don't need to enter a query string. If a query is entered, it won't affect the results. Choose from the drop down menu and select, Security, click on the Submit button to determine if the query passes or fails the DOS test.
                   </p>
               </div>
+
               <div className={
                 classNames(
                   'split-item-image center-content-mobile reveal-from-bottom',
