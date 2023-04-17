@@ -4,6 +4,8 @@ import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 
+//text in features split is here
+
 const propTypes = {
   ...SectionSplitProps.types
 }
