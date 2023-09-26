@@ -65,7 +65,7 @@ const Testimonial = ({
                 <div>
                   <Image
                   src={`https://ca.slack-edge.com/T037PK0BFFE-U03CNN093EX-9aadd1873e71-512`}
-                  alt="Features split 02"
+                  alt="victor-head-shot"
                   width={528}
                   height={396} />
                 </div>
@@ -81,7 +81,7 @@ const Testimonial = ({
                 <div>
                 <Image
                 src={`https://user-images.githubusercontent.com/3701668/232609016-f993f9d1-4741-4064-839f-e132b7abc848.jpg`}
-                alt="Features split 02"
+                alt="mariko-head-shot"
                 width={528}
                 height={396} />
                 </div>
@@ -97,7 +97,7 @@ const Testimonial = ({
                 <div>
                 <Image
                   src={`https://ca.slack-edge.com/T037PK0BFFE-U03JW5C6VUN-b4875a36cf88-512 `}
-                  alt="Features split 02"
+                  alt="chris-head-shot"
                   width={528}
                   height={396} />
                   
@@ -113,8 +113,8 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div>
                   <Image
-                src={`https://media.licdn.com/dms/image/D5603AQHyBaNdeEWH5w/profile-displayphoto-shrink_200_200/0/1677365263121?e=1687392000&v=beta&t=2uT8Vld8MHibliYDOYxPtowPjIDLOHqgSq-EMV20ROI`}
-                alt="Features split 02"
+                src={`https://github.com/victorhe33/safeql-splash/assets/3701668/5292debb-cd7f-4d84-b8fb-309e53863ceb`}
+                alt="etana-head-shot"
                 width={528}
                 height={396} />
                 </div>
@@ -130,7 +130,7 @@ const Testimonial = ({
                 <div>
                 <Image
                 src={`https://ca.slack-edge.com/T037PK0BFFE-U03G8C9UX2A-de77bcbf3590-512`}
-                alt="Features split 02"
+                alt="collin-head-shot"
                 width={528}
                 height={396} />
                 </div>
